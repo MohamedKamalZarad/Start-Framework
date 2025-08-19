@@ -1,0 +1,25 @@
+<nav (document:scroll)="onScroll()" [ngClass]="{'py-4':isNotScrolled,'py-2':isScrolled}" class="navbar z-2 position-fixed left-0 w-100 navbar-expand-lg navbar-light bg-mycolor" >
+  <div class="container d-flex justify-content-between">
+    <a class="navbar-brand text-white text-uppercase fw-bolder fs-2" href="#">Start Framework
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbarTogglerDemo01" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-3 d-flex ">
+          <a class="nav-link text-white text-uppercase rounded-2 fw-bold mt-3 mt-md-0 px-2 py-2" routerLink="about" routerLinkActive="active" >about</a>
+        </li>
+        <li class="nav-item me-3 d-flex">
+          <a class="nav-link text-white text-uppercase rounded-2 fw-bold mt-3 mt-md-0 px-2 py-2" routerLink="portfolio"  routerLinkActive="active">portfolio</a>
+        </li>
+        <li class="nav-item me-3 d-flex ">
+          <a class=" nav-link text-white text-uppercase rounded-2 fw-bold mt-3 mt-md-0 px-2 py-2" routerLink="contact"  routerLinkActive="active">
+            contact</a>
+          </li>
+          
+        </ul>
+      </div>
+      
+  </div>
+</nav>

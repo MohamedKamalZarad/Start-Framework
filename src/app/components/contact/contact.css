@@ -1,0 +1,17 @@
+.bg-mycolor{
+background-color: #1abc9c;
+}
+.mycolor{
+color: #1abc9c;
+}
+#label1{
+    transition: 0.6s top;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+#label1:focus:not(:placeholder-shown){
+    top: 40px !important;
+    background-color: red !important;
+}

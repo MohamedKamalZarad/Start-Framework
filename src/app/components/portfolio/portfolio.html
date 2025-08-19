@@ -1,0 +1,75 @@
+<section class="pt-5">
+    <div class="title mb-3 ">
+        <h2 class="text-uppercase text-center mb-3 fs-1 fw-bolder">portfolio component</h2>
+        <app-star class="mycolor"></app-star>
+    </div>
+    <div class="container mt-3">
+        <div class="row ">
+            <div class="col-lg-4 col-md-6 p-4">
+                <div class="position-relative">
+                    <img class="w-100 rounded-3 position-relative d-block z-1" src="./port1.png " alt="first image"
+                        srcset="">
+                    <div
+                        class=" plus-hover  rounded-3 position-absolute w-100 top-0 start-0 d-flex justify-content-center h-100 align-items-center">
+                        <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-4">
+                <div class="position-relative">
+                    <img class="w-100 rounded-3 position-relative d-block z-1" src="./port2.png " alt="second image"
+                        srcset="">
+                    <div
+                        class=" plus-hover rounded-3 position-absolute w-100 top-0 start-0 d-flex justify-content-center h-100 align-items-center">
+                        <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-4">
+                <div class="position-relative">
+                    <img class="w-100 rounded-3 position-relative d-block z-1" src="./port3.png " alt="third image"
+                        srcset="">
+                    <div
+                        class=" plus-hover rounded-3 position-absolute w-100 top-0 start-0 d-flex justify-content-center h-100 align-items-center">
+                        <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-4">
+                <div class="position-relative">
+                    <img class="w-100 rounded-3 position-relative d-block z-1" src="./port1.png " alt="first image"
+                        srcset="">
+                    <div
+                        class=" plus-hover rounded-3 position-absolute w-100 top-0 start-0 d-flex justify-content-center h-100 align-items-center">
+                        <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-4">
+                <div class="position-relative">
+                    <img class="w-100 rounded-3 position-relative d-block z-1" src="./port2.png " alt="second image"
+                        srcset="">
+                    <div
+                        class=" plus-hover rounded-3 position-absolute w-100 top-0 start-0 d-flex justify-content-center h-100 align-items-center">
+                        <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-4">
+                <div class="position-relative">
+                    <img class="w-100 rounded-3 position-relative d-block z-1" src="./port3.png " alt="third image"
+                        srcset="">
+                    <div
+                        class=" plus-hover rounded-3 position-absolute w-100 top-0 start-0 d-flex justify-content-center h-100 align-items-center">
+                        <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div 
+        [class]="{'d-none':flag}" class="bg-opacity-25 z-3 d-flex align-items-center justify-content-center position-fixed bottom-0 left-0  bg-primary w-100 h-100 ">
+        <img style="width: 600px;" src="./port2.png" alt="" srcset="">
+    </div>
+</section>

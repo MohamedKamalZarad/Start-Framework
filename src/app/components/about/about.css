@@ -1,0 +1,6 @@
+section{
+    background-color: #1abc9c;
+}
+section .my-height{
+    min-height: calc(-103px + 100vh);
+}
